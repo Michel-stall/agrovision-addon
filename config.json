@@ -1,0 +1,14 @@
+{
+  "name": "Agrovision Reverse Proxy",
+  "version": "1.0.0",
+  "slug": "agrovision_proxy",
+  "description": "Lokaler NGINX-Proxy für Agrovision",
+  "startup": "services",
+  "boot": "auto",
+  "ingress": false,
+  "host_network": true,
+  "ports": {
+    "8123/tcp": 8123
+  },
+  "schema": {}
+}
